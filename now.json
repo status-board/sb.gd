@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "alias": [
+    "sb.gd"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": {
+        "Location": "https://status-board.io/$1"
+      }
+    }
+  ]
+}
